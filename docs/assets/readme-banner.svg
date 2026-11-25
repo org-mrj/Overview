@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" role="img" aria-labelledby="title description">
+  <title id="title">org-mrj - the MJ family of projects</title>
+  <desc id="description">Violet and teal organization header. Business apps, AI assistants, payments and messaging, company sites.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0b0b1f"/>
+      <stop offset=".6" stop-color="#16143a"/>
+      <stop offset="1" stop-color="#1c1a4a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d9d3ff"/>
+      <stop offset=".35" stop-color="#8b7bff"/>
+      <stop offset=".7" stop-color="#5eb8e6"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <radialGradient id="coin" cx=".4" cy=".3" r=".8">
+      <stop stop-color="#2c2870"/>
+      <stop offset=".6" stop-color="#16143a"/>
+      <stop offset="1" stop-color="#0b0b1f"/>
+    </radialGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#8b7bff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#8b7bff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".04"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1280" height="360" rx="24"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="360" fill="url(#background)"/>
+    <rect width="1280" height="360" fill="url(#grid)"/>
+    <ellipse cx="1080" cy="155" rx="400" ry="310" fill="url(#glow)"/>
+    <path d="M850 0L670 360M1130 0L950 360" fill="none" stroke="#2dd4bf" stroke-opacity=".08" stroke-width="2"/>
+    <rect x="0" width="5" height="360" fill="url(#accent)"/>
+    <g font-family="Nunito, Segoe UI, Inter, Arial, sans-serif">
+      <text x="64" y="57" fill="#b8b4e0" font-size="13" font-weight="600" letter-spacing="4">ORGANIZATION OVERVIEW</text>
+      <text x="60" y="163" font-size="96" font-weight="900" letter-spacing="-4">
+        <tspan fill="#8b7bff">org</tspan><tspan fill="#2dd4bf">-mrj</tspan>
+      </text>
+      <text x="64" y="213" fill="#f1f0ff" font-size="25" font-weight="500">The MJ family of web products.</text>
+      <text x="64" y="248" fill="#b8b4e0" font-size="17">Business apps &#183; AI assistants &#183; Payments &amp; messaging &#183; Company sites</text>
+      <g font-size="13" font-weight="600">
+        <rect x="64" y="285" width="166" height="32" rx="8" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".12"/>
+        <text x="147" y="306" fill="#f1f0ff" text-anchor="middle">TypeScript + React</text>
+        <rect x="242" y="285" width="142" height="32" rx="8" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".12"/>
+        <text x="313" y="306" fill="#f1f0ff" text-anchor="middle">Python + Django</text>
+        <rect x="396" y="285" width="166" height="32" rx="8" fill="#2dd4bf" fill-opacity=".1" stroke="#2dd4bf" stroke-opacity=".3"/>
+        <text x="479" y="306" fill="#7eeedd" text-anchor="middle">PostgreSQL</text>
+      </g>
+      <g transform="translate(1010 158)">
+        <circle r="99" fill="none" stroke="#8b7bff" stroke-opacity=".1" stroke-width="24"/>
+        <circle r="80" fill="url(#accent)"/>
+        <circle r="71" fill="url(#coin)"/>
+        <circle r="62" fill="none" stroke="#2dd4bf" stroke-opacity=".25"/>
+        <text x="-2" y="20" text-anchor="end" font-size="56" font-weight="900" letter-spacing="-3" fill="#8b7bff">M</text>
+        <text x="0" y="20" text-anchor="start" font-size="56" font-weight="900" letter-spacing="-3" fill="#2dd4bf">J</text>
+      </g>
+      <text x="1010" y="292" fill="#b8b4e0" text-anchor="middle" font-size="12" font-weight="600" letter-spacing="3">PROJECT SHOWCASE</text>
+    </g>
+    <rect x=".5" y=".5" width="1279" height="359" rx="23.5" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+  </g>
+</svg>
